@@ -6,5 +6,11 @@ public class App {
         Doctor myDoctor = new Doctor("Oscar Lara", "Neurología");
         System.out.println(myDoctor.name);
         System.out.println(myDoctor.speciality);
+
+        Patient patient = new Patient("Alejandra", "ale@gmail.com");
+        patient.setWeight(62.5);
+        patient.getWeight();
+        patient.setPhoneNumber("1234567890");
+        System.out.println(patient.getPhoneNumber()); 
     }
 }
