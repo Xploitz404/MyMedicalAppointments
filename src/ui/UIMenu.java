@@ -3,8 +3,6 @@ package ui;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.print.Doc;
-
 import model.Doctor;
 import model.Patient;
 
@@ -72,7 +70,7 @@ public class UIMenu {
                         //Obtener el usuario logueado
                         emailCorrect = true;
                         doctorLogged = d;
-                        //showDoctorMenu
+                        UIDoctorMenu.showDoctorMenu();
                     }
                 }
             } else if(userType == 2) {
