@@ -16,4 +16,10 @@ public class Nurse extends User {
         this.speciality = speciality;
     }
 
+    @Override
+    public void showDataUser() {
+        System.out.println("Empleado del Hospital: Ángeles Lindavista");
+        System.out.println("Departamentos: Cancerología, Nutriología, Cardiología");
+    }
+
 }

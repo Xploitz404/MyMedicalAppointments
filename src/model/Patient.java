@@ -40,4 +40,10 @@ public class Patient extends User {
     public void setBlood(String blood) {
         this.blood = blood;
     }
+
+    @Override
+    public void showDataUser() {
+        System.out.println("Paciente");
+        System.out.println("Historial completo desde su nacimiento: ");
+    }
 }

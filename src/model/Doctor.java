@@ -29,6 +29,12 @@ public class Doctor extends User {
         return availableAppointments;
     }
 
+    @Override
+    public void showDataUser() {
+        System.out.println("Empleado del Hospital: Ángeles mocel");
+        System.out.println("Departamento: Cancerología");
+    }
+
     public static class AvailableAppointment {
         private int id_availableAppointment;
         private Date date;
