@@ -56,7 +56,7 @@ public class UIMenu {
 
         ArrayList<Patient> patients = new ArrayList<>();
         patients.add(new Patient("Todd Sánchez", "tooood@netflix.com"));
-        patients.add(new Patient("Diane Peanut Butter", "tooood@netflix.com"));
+        patients.add(new Patient("Diane Peanut Butter", "dianeee@netflix.com"));
         patients.add(new Patient("Herb Kazzas", "Herb@netflix.com"));
 
         boolean emailCorrect = false;
@@ -78,7 +78,7 @@ public class UIMenu {
                     if (p.getEmail().equals(email)) {
                         emailCorrect = true;
                         patientLogged = p;
-                        // showPatientMenu
+                        UIPatientMenu.showPatientMenu();
                     }
                 }
             }
